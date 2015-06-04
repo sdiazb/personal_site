@@ -3,17 +3,11 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-    margin: 0 auto;
-    width: 500px;
+    margin: 50px auto;
+    width: 550px;
     font-family: georgia, serif; 
-}
-
-header {
-	padding-top: 50px;
-}
-
-article {
-	padding-bottom: 50px;
+    font-size: 16px;
+  	line-height: 24px;
 }
 
 .avatar {
@@ -33,6 +27,7 @@ h1 {
     font-style: normal;
     text-align: center;
     color: #323232;
+    line-height: 55px;
 }
 
 #social_links {
@@ -48,4 +43,13 @@ a.social_link {
 
 .fa {
 	margin: 0 10px;
+}
+
+@media screen and (max-width: 550px) {
+  body {
+    margin: 35px auto;
+    padding: 0 20px 0 20px;
+    width: auto;
+    word-wrap: break-word;
+  }
 }
